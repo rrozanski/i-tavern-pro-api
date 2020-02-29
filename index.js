@@ -2,7 +2,6 @@ const express = require("express");
 const body_parser = require('body-parser');
 const cors = require('cors');
 const joi = require('joi');
-const uuid = require('uuid/v4');
 const app = express();
 
 const heroSchema = joi.object().keys({
